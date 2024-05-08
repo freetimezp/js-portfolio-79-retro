@@ -4,8 +4,13 @@
 
 @font-face {
     font-family: 'Canopee';
-    src: url('./assets/fonts/canopee.woff2') format('woff2');
-  }
+    src: url('./assets/fonts/canopee.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Domain';
+    src: url('./assets/fonts/domain.ttf') format('ttf');
+}
 
 * {
     padding: 0;
@@ -19,11 +24,17 @@ html, body {
     font-family: "Dancing Script" ,sans-serif;
 }
 
+#main {
+    background-color: #222;
+    overflow-x: hidden;
+}
+
 #page1 {
     height: 100vh;
     width: 100vw;
     background-color: #c4bcb3;
     position: relative;
+    overflow-x: hidden;
 }
 
 #nav {
@@ -148,7 +159,7 @@ html, body {
 
 
 #elem2 h2 {
-    font-family: Canopee;
+    font-family: Domain;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 60px;
@@ -156,7 +167,7 @@ html, body {
 }
 
 #elem2 h3 {
-    font-family: Roboto;
+    font-family: Domain;
     font-size: 50px;
     font-weight: 100;
     margin-bottom: 30px;
