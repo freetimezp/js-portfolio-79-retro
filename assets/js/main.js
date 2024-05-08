@@ -1,3 +1,13 @@
+//locomotive scroll
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('#main'),
+    smooth: true
+});
+
+
+
+
+//rotation
 let tl = gsap.timeline();
 
 tl.to("#page1", {
