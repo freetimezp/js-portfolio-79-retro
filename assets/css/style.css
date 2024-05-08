@@ -280,6 +280,44 @@ html, body {
 }
 
 
+#page3 {
+    height: 45vh;
+    background-color: #c4bcb3;
+    padding: 80px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#page3 h1 {
+    width: 75%;
+    font-size: 500px;
+    font-weight: 200;
+    font-family: Canopee;
+    background-color: #1c1c19;
+    color: #c4bcb3;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#page3 img {
+    height: 400px;
+    position: absolute;
+    right: 0;
+    transform: translateX(-45%);
+}
+
+
+
+
+
+
+
+
+
 
 
 
