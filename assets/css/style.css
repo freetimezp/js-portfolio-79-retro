@@ -21,6 +21,7 @@ html, body {
     height: 100%; 
     width: 100%;
     font-family: "Dancing Script" ,sans-serif;
+    background-color: #c4bcb3;
 }
 
 #main {
@@ -317,6 +318,7 @@ html, body {
     align-items: center;
     justify-content: space-between;
     background-color: #c4bcb3;
+    overflow: hidden;
 }
 
 #page4-left {
@@ -387,5 +389,74 @@ html, body {
 #anda:hover h1 {
     transform: translateX(120%);
 }
+
+
+#page5 {
+    padding: 80px 30px;
+    min-height: 100px;
+    width: 100%;
+    background-color: #c4bcb3;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+#page5::-webkit-scrollbar {
+    display: none;
+}
+
+#page5 h1 {
+    font-size: 70px;
+    font-family: Domain;
+    font-weight: 100;
+    display: inline-block;
+    animation: scrollLine 10s linear infinite;
+    margin-right: 20px;
+}
+
+#page5 h1 span {
+    font-family: Canopee;
+    font-weight: 500;
+    background-color: #1b1b1b;
+    color: #c4bcb3;
+    padding: 2px 12px;
+}
+
+#page5 h1:nth-child(2) span {
+    background-color: orangered;
+}
+
+#page5 h1:nth-child(3) span {
+    background-color: rgb(135, 170, 222);
+}
+
+@keyframes scrollLine {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+#page6 {
+    background-color: #c4bcb3;
+    padding: 0 30px;
+}
+
+#page6 p {
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 20px;
+    width: 600px;
+    margin: 0 auto -30px;
+    border-top: 1px solid #787878;
+    font-weight: 700;
+}
+
+
+
+
 
 
