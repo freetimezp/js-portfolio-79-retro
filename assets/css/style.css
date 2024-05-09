@@ -24,6 +24,10 @@ html, body {
     background-color: #c4bcb3;
 }
 
+*::-webkit-scrollbar {
+    display: none;
+}
+
 #main {
     background-color: #222;
     overflow-x: hidden;
