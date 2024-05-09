@@ -415,7 +415,7 @@ html, body {
     font-family: Domain;
     font-weight: 100;
     display: inline-block;
-    animation: scrollLine 10s linear infinite;
+    animation: scrollLine 10s forwards infinite;
     margin-right: 20px;
 }
 
@@ -459,7 +459,9 @@ html, body {
     font-weight: 700;
 }
 
-
+#page5:hover h1 {
+    animation-play-state: paused;
+}
 
 
 
